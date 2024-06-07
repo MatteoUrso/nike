@@ -1,6 +1,6 @@
 type Props = {
   label: string;
-  iconUrl?: string;
+  iconUrl: string;
 };
 
 const Button = ({ label, iconUrl }: Props) => {
